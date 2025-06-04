@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      var a = "abc";
+      var b = 5;
+      var c = null;
+      var d = 0;
+
+      function displayAndEval(obj) {
+        console.log("value is:", obj);
+        if (obj) {
+          console.log("evaluates to true.");
+        } else {
+          console.log("evaluates to false.");
+        }
+      }
+
+      displayAndEval(a);
+      displayAndEval(b);
+      displayAndEval(c);
+      displayAndEval(d);
+
+      var movies = undefined;
+      displayAndEval(movies);
+    </script>
+  </head>
+  <body>
+    <h1>Truthy or Not Truthy?</h1>
+  </body>
+</html>

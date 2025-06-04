@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // for loop
+        for (let i=0; i<10; i++) {
+            console.log(i);
+        }
+
+        var nbrs = [0,5,23,14,99,3];
+        // for .. in (still uses an index)
+        for (i in nbrs) {
+            console.log('i is ' + i + ', nbr is: ' + nbrs[i]);
+        }
+
+        // for .. of (like a for .. each)
+        for (nbr of nbrs) {
+            console.log('nbr is '+nbr);
+        }
+    </script>
+</head>
+<body>
+    <h1>For Loops</h1>
+</body>
+</html>

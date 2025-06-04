@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // evaluate state to determine sales tax
+        var state = "OH";
+        var tax = 0.0;
+
+        // if (state == "OH") {
+        //     tax = .065;
+        // }
+        // else {
+        //     tax = .07;
+        // }
+
+        // ternary operator
+        tax = (state == "OH") ? .065 : .07;
+
+        console.log("tax is "+tax);
+    </script>
+</head>
+<body>
+    <h1>Ternary</h1>
+</body>
+</html>
